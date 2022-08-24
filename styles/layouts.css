@@ -1,0 +1,25 @@
+/* .slidev-layout {
+    @apply px-14 py-10 text-[1.1rem];
+
+    h1, h2, h3, h4, p, div {
+        @apply select-none;
+    }
+
+    pre, code {
+        @apply select-text;
+    }
+
+    a {
+        color: theme('colors.primary');
+ 
+    }
+} */
+.slidev-layout {
+  a {
+    color: #00a2ff;
+  }
+}
+
+#slide-content {
+  border: solid 1px #ddd;
+}

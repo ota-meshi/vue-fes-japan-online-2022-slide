@@ -1,0 +1,19 @@
+{
+  "name": "vue-fes-japan-online-2022-slide",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "build:gh": "slidev build --base /vue-fes-japan-online-2022-slide/",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.33.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
