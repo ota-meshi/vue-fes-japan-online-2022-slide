@@ -1,6 +1,5 @@
 ---
-layout: center
-class: text-center big-title
+layout: section
 ---
 
 # まとめ
@@ -31,8 +30,7 @@ hideInToc: true
 <!-- prettier-ignore-start -->
 
 ---
-layout: center
-class: text-center
+layout: section
 hideInToc: true
 ---
 

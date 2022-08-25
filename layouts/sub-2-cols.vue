@@ -1,13 +1,14 @@
 <template>
-  <div class="slidev-layout default sub-two-cols">
+  <div class="slidev-layout default sub-2-cols">
     <slot />
     <div grid="~ cols-2 gap-4">
-      <div class="sub-two-cols__left">
+      <div class="sub-2-cols__left">
         <slot name="left" />
       </div>
-      <div class="sub-two-cols__right">
+      <div class="sub-2-cols__right">
         <slot name="right" />
       </div>
     </div>
+    <slot name="bottom" />
   </div>
 </template>

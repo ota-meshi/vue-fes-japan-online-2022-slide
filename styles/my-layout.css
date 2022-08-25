@@ -3,3 +3,7 @@
   font-size: 3.5rem;
   line-height: 3.9rem;
 }
+
+strong {
+  @apply text-teal-500 dark:text-teal-400;
+}

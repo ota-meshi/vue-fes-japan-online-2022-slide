@@ -11,11 +11,11 @@ hideInToc: true
 <div class="avatars">
   <img class="avatar" src="https://github.com/ota-meshi.png" alt="ota-meshi">
   <div class="org-avatars">
-    <img src="https://github.com/future-architect.png" alt="Future Corp">
-    <img src="https://github.com/vuejs.png" alt="Vue.js">
-    <img src="https://github.com/stylelint.png" alt="Stylelint">
-    <img src="https://github.com/intlify.png" alt="Intlify">
-    <img src="https://github.com/stylus.png" alt="Stylus">
+    <a href="https://github.com/future-architect" target="_brank"><img src="https://github.com/future-architect.png" alt="Future Corp"></a>
+    <a href="https://github.com/vuejs" target="_brank"><img src="https://github.com/vuejs.png" alt="Vue.js"></a>
+    <a href="https://github.com/stylelint" target="_brank"><img src="https://github.com/stylelint.png" alt="Stylelint"></a>
+    <a href="https://github.com/intlify" target="_brank"><img src="https://github.com/intlify.png" alt="Intlify"></a>
+    <a href="https://github.com/stylus" target="_brank"><img src="https://github.com/stylus.png" alt="Stylus"></a>
   </div>
 </div>
 
@@ -23,22 +23,23 @@ hideInToc: true
 
 ### 太田 洋介
 
-- 年齢: アラフォー　 📍: 神奈川県  
+- 年齢: アラフォー　 📍: 神奈川県
 - GitHub: [@ota-meshi](https://github.com/ota-meshi) <a class="sponsor" href="https://github.com/sponsors/ota-meshi" target="_blank" rel="noopener">♡ Sponsor</a> ,
   npm: [ota-meshi](https://www.npmjs.com/~ota-meshi),
   Twitter: [@omoteota](https://twitter.com/omoteota),  
   Qiita: [@ota-meshi](https://qiita.com/ota-meshi)
 - 所属:
-  - [フューチャー株式会社](https://www.future.co.jp/) 社員 <span class="since">(2015/06 - )</span>
+  - [フューチャー株式会社](https://www.future.co.jp/) 社員 <span class="since">(2015/06 - )</span>  
+    <span class="platinum">（プラチナスポンサー！）</span>
   - [Vue.js](https://vuejs.org/about/team.html) eslint-plugin-vue メンテナー <span class="since">(eslint-plugin-vue 2018/08 - , Vue 2019/07 - )</span>
   - [Stylelint](https://github.com/stylelint) Owners チーム <span class="since">(2020/09 - )</span>
-  - [Intlify](https://github.com/intlify) eslint-plugin-vue-i18n 担当 <span class="since">(2020/07 - )</span>
+  - [Intlify](https://github.com/intlify) eslint-plugin-vue-i18n メンテナー <span class="since">(2020/07 - )</span>
   - [Stylus](https://github.com/stylus) チーム <span class="since">(2022/06 - )</span>
-- [WEB+DB PRESS Vol.120] 「最新Vue.js 3入門」 共同執筆 <span class="since">(2020/12/24)</span>
+- [WEB+DB PRESS Vol.120] 「最新 Vue.js 3 入門」 共同執筆 <span class="since">(2020/12/24)</span>
 - [Google Open Source Peer Bonus 2022] 受賞
 
-[WEB+DB PRESS Vol.120]: https://gihyo.jp/magazine/wdpress/archive/2021/vol120
-[Google Open Source Peer Bonus 2022]: https://www.googblogs.com/announcing-first-group-of-google-open-source-peer-bonus-winners-in-2022/
+[web+db press vol.120]: https://gihyo.jp/magazine/wdpress/archive/2021/vol120
+[google open source peer bonus 2022]: https://www.googblogs.com/announcing-first-group-of-google-open-source-peer-bonus-winners-in-2022/
 
 </div>
 </div>
@@ -68,6 +69,9 @@ hideInToc: true
   align-items: center;
   justify-content: center;
 }
+.org-avatars a:not(:hover) {
+  border-color: transparent;
+}
 .org-avatars img {
   border-radius: 16px;
   border: 0.5px solid #aaa;
@@ -80,7 +84,7 @@ hideInToc: true
 .profile-contents .since {
   font-size: 0.8rem;
 }
-.sponsor {
+.slidev-layout a.sponsor {
   margin-left: 8px;
   border: 1px solid #fd1d7c;
   border-radius: 4px;
@@ -90,9 +94,14 @@ hideInToc: true
   vertical-align: bottom;
   color: #fd1d7c;
 }
-.sponsor:hover {
+.slidev-layout a.sponsor:hover {
   color: #fff;
   background-color: #fd1d7c;
+}
+.platinum {
+  color: rgb(250, 249, 228);
+  font-size: 80%;
+  font-weight: 800;
 }
 </style>
 
