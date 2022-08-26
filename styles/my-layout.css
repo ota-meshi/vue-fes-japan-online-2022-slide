@@ -7,3 +7,7 @@
 strong {
   @apply text-teal-500 dark:text-teal-400;
 }
+
+em {
+  @apply text-amber-700 dark:text-amber-200;
+}
