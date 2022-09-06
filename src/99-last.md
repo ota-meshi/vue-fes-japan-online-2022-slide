@@ -7,12 +7,18 @@ hideInToc: true
 # Thank you for your attention
 
 <div class="ribbon">
+<div
+  v-if="$slidev.nav.currentPage === $slidev.nav.total"
+  v-motion
+  :initial="{ x: -80 }"
+  :enter="{ x: 0 }">
 
 [Support me ❤](https://github.com/sponsors/ota-meshi) or follow me!!  
 GitHub: https://github.com/ota-meshi  
 Twitter: https://twitter.com/omoteota  
 Qiita: https://qiita.com/ota-meshi
 
+</div>
 </div>
 
 <style>
