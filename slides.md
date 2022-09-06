@@ -4,7 +4,6 @@ highlighter: shiki
 lineNumbers: false
 drawings:
   persist: false
-download: true
 src: ./src/00-010-title.md
 ---
 
