@@ -2,13 +2,13 @@
 layout: center
 class: text-center big-title
 hideInToc: true
+preload: false
 ---
 
 # Thank you for your attention
 
 <div class="ribbon">
 <div
-  v-if="$slidev.nav.currentPage === $slidev.nav.total"
   v-motion
   :initial="{ x: -80 }"
   :enter="{ x: 0 }">
