@@ -9,7 +9,7 @@ preload: false
 
 <div class="ribbon">
 <div
-  v-motion
+  v-motion-x
   :initial="{ x: -80 }"
   :enter="{ x: 0 }">
 

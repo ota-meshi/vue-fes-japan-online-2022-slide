@@ -6,7 +6,7 @@
     "preview-server-start": "npx http-server dist -o http://localhost:8080/",
     "build:gh": "slidev build --base /vue-fes-japan-online-2022-slide/ --download",
     "dev": "slidev --open",
-    "export": "slidev export",
+    "export": "slidev export --timeout 300000",
     "format": "prettier . --write"
   },
   "dependencies": {
