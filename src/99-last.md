@@ -5,34 +5,25 @@ hideInToc: true
 preload: false
 ---
 
-# Thank you for your attention
+<h1 class="gradient">Thank you for your attention</h1>
 
 <div class="ribbon">
 <div
   v-motion-x
   :initial="{ x: -80 }"
   :enter="{ x: 0 }">
+<div class="gradient" style="    display: inline-block;">
 
-[Support me ❤](https://github.com/sponsors/ota-meshi) or follow me!!  
-GitHub: https://github.com/ota-meshi  
-Twitter: https://twitter.com/omoteota  
-Qiita: https://qiita.com/ota-meshi
+[Support me ❤](https://github.com/sponsors/ota-meshi) <span class="gradient-off">or follow me!!</span>  
+<span class="gradient-off">GitHub:</span> <https://github.com/ota-meshi>  
+<span class="gradient-off">Twitter:</span> <https://twitter.com/omoteota>  
+<span class="gradient-off">Qiita:</span> <https://qiita.com/ota-meshi>
 
+</div>
 </div>
 </div>
 
 <style>
-  h1,
-  a {
-    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
   .ribbon {
     position: absolute;
     bottom: 32px;
