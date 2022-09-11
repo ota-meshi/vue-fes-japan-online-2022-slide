@@ -16,6 +16,7 @@ hideInToc: true
     <a href="https://github.com/stylelint" target="_brank"><img src="https://github.com/stylelint.png" alt="Stylelint"></a>
     <a href="https://github.com/intlify" target="_brank"><img src="https://github.com/intlify.png" alt="Intlify"></a>
     <a href="https://github.com/stylus" target="_brank"><img src="https://github.com/stylus.png" alt="Stylus"></a>
+    <a href="https://github.com/eslint-community" target="_brank"><img src="https://github.com/eslint-community.png" alt="ESLint Community"></a>
   </div>
 </div>
 
@@ -29,12 +30,12 @@ hideInToc: true
   Twitter: [@omoteota](https://twitter.com/omoteota),  
   Qiita: [@ota-meshi](https://qiita.com/ota-meshi)
 - 所属:
-  - [フューチャー株式会社](https://www.future.co.jp/) 社員 <span class="since">(2015/06 - )</span>  
-    <span class="platinum">（プラチナスポンサー！）</span>
+  - [フューチャー株式会社](https://www.future.co.jp/) <span class="platinum">（プラチナスポンサー！）</span> 社員 <span class="since">(2015/06 - )</span>
   - [Vue.js](https://vuejs.org/about/team.html) eslint-plugin-vue メンテナー <span class="since">(eslint-plugin-vue 2018/08 - , Vue 2019/07 - )</span>
   - [Stylelint](https://github.com/stylelint) Owners チーム <span class="since">(2020/09 - )</span>
   - [Intlify](https://github.com/intlify) eslint-plugin-vue-i18n メンテナー <span class="since">(2020/07 - )</span>
   - [Stylus](https://github.com/stylus) チーム <span class="since">(2022/06 - )</span>
+  - [ESLint Community](https://github.com/eslint-community) チーム <span class="since">(2022/09 - )</span>
 - [WEB+DB PRESS Vol.120] 「最新 Vue.js 3 入門」 共同執筆 <span class="since">(2020/12/24)</span>
 - [Google Open Source Peer Bonus 2022] 受賞
 
