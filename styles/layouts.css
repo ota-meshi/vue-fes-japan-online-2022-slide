@@ -1,0 +1,7 @@
+.slidev-layout a {
+  @apply text-sky-500 dark:text-sky-400;
+}
+
+#slide-content {
+  border: solid 1px #ddd;
+}

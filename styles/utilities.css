@@ -1,0 +1,17 @@
+.gradient {
+  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-off {
+  @apply bg-main;
+  background-color: transparent !important;
+  text-fill-color: currentColor;
+  -webkit-text-fill-color: currentColor;
+  -moz-text-fill-color: currentColor;
+}
