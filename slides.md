@@ -5,6 +5,8 @@ lineNumbers: false
 drawings:
   persist: false
 colorSchema: dark
+title: 'eslint-plugin-vue を使用して継続的に Vue3 移行する'
+titleTemplate: '%s'
 src: ./src/00-010-title.md
 ---
 
